@@ -14,9 +14,7 @@ const Header = () => {
   };
 
   const scrollToSection = (sectionId: string) => {
-    document
-      .getElementById(sectionId)
-      ?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
     setIsOpen(false);
   };
 

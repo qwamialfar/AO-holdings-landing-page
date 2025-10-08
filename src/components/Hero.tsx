@@ -6,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 import {
   Cloud,
   BarChart3,
@@ -27,7 +28,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-secondary via-secondary to-secondary/80 opacity-90" />
       <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
         <div className="max-w-5xl mx-auto">
-          <Carousel className="relative" opts={{ loop: true, align: "start" }}>
+          <Carousel className="relative" opts={{ loop: true, align: "start" }} plugins={[Autoplay({ delay: 4000 })]}>
             <CarouselContent>
               {[
                 {
