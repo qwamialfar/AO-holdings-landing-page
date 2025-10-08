@@ -42,8 +42,7 @@ const Hero = () => {
                   description:
                     "Productivity suite with Word, Excel, PowerPoint, Outlook, and enterprise-grade security.",
                   Icon: AppWindow,
-                  imageSrc:
-                    "https://learn.microsoft.com/media/logos/microsoft-365-logo.svg",
+                  imageSrc: "/what-is-dynamics-365 (1).png",
                 },
                 {
                   title: "Azure Cloud",
