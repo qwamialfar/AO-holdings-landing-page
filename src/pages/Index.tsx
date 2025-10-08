@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PriceComparison from "@/components/PriceComparison";
 import WhyPriceIncrease from "@/components/WhyPriceIncrease";
@@ -11,13 +12,22 @@ import StickyFooter from "@/components/StickyFooter";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Header />
       <Hero />
-      <PriceComparison />
-      <WhyPriceIncrease />
-      <Benefits />
-      <HowItWorks />
+      <div id="services">
+        <PriceComparison />
+        <WhyPriceIncrease />
+      </div>
+      <div id="benefits">
+        <Benefits />
+      </div>
+      <div id="how-it-works">
+        <HowItWorks />
+      </div>
       <UrgencyCTA />
-      <FAQ />
+      <div id="faq">
+        <FAQ />
+      </div>
       <LeadForm />
       <StickyFooter />
     </div>

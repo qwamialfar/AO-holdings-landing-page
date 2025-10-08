@@ -26,14 +26,6 @@ const Hero = () => {
     <section className="relative bg-secondary text-secondary-foreground overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-secondary via-secondary to-secondary/80 opacity-90" />
       <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
-        {/* AO Holdings Logo */}
-        <div className="flex justify-center mb-12">
-          <img
-            src="/AO Holdings_Digital Transformation Logo_PNG.png"
-            alt="AO Holdings Digital Transformation"
-            className="h-16 md:h-20 w-auto"
-          />
-        </div>
         <div className="max-w-5xl mx-auto">
           <Carousel className="relative" opts={{ loop: true, align: "start" }}>
             <CarouselContent>
