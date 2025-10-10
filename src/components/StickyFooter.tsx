@@ -21,7 +21,9 @@ const StickyFooter = () => {
   }, []);
 
   const scrollToForm = () => {
-    document.getElementById('lead-form')?.scrollIntoView({ behavior: 'smooth' });
+    document
+      .getElementById("lead-form")
+      ?.scrollIntoView({ behavior: "smooth" });
   };
 
   if (isDismissed || !isVisible) return null;
@@ -31,9 +33,9 @@ const StickyFooter = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between gap-4">
           <p className="text-sm md:text-base font-semibold flex-1">
-            Lock Your Old Price Now – Before It's Gone
+            Secure your Microsoft Dynamics 365 price before October 30th
           </p>
-          
+
           <Button
             onClick={scrollToForm}
             variant="secondary"
@@ -42,7 +44,7 @@ const StickyFooter = () => {
           >
             Get Started →
           </Button>
-          
+
           <button
             onClick={() => setIsDismissed(true)}
             className="flex-shrink-0 p-1 hover:bg-primary-foreground/10 rounded transition-colors"
