@@ -1,11 +1,9 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PriceComparison from "@/components/PriceComparison";
-import WhyPriceIncrease from "@/components/WhyPriceIncrease";
 import Benefits from "@/components/Benefits";
 import HowItWorks from "@/components/HowItWorks";
 import UrgencyCTA from "@/components/UrgencyCTA";
-import FAQ from "@/components/FAQ";
 import LeadForm from "@/components/LeadForm";
 import StickyFooter from "@/components/StickyFooter";
 
@@ -16,7 +14,6 @@ const Index = () => {
       <Hero />
       <div id="services">
         <PriceComparison />
-        <WhyPriceIncrease />
       </div>
       <div id="benefits">
         <Benefits />
@@ -25,9 +22,6 @@ const Index = () => {
         <HowItWorks />
       </div>
       <UrgencyCTA />
-      <div id="faq">
-        <FAQ />
-      </div>
       <LeadForm />
       <StickyFooter />
     </div>

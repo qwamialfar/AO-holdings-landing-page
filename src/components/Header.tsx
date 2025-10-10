@@ -20,10 +20,8 @@ const Header = () => {
 
   const navigation = [
     { name: "Services", id: "services" },
-    { name: "Key Features", id: "key-features" },
     { name: "Benefits", id: "benefits" },
     { name: "How It Works", id: "how-it-works" },
-    { name: "FAQ", id: "faq" },
   ];
 
   return (
