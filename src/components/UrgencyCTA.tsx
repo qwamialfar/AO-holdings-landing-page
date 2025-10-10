@@ -17,7 +17,7 @@ const UrgencyCTA = () => {
           </div>
           
           <p className="text-xl md:text-2xl leading-relaxed">
-            Don't miss out! Lock in your current Microsoft pricing before the October 30th deadline. Secure your business's digital transformation at today's rates.
+            Lock Your Old Price Now – Before It's Gone! Secure your Microsoft pricing before October 30th.
           </p>
           
           <Button 
