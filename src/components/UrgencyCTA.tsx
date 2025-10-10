@@ -17,7 +17,7 @@ const UrgencyCTA = () => {
           </div>
           
           <p className="text-xl md:text-2xl leading-relaxed">
-            This offer is only available for a limited time! Avoid the new prices and secure your ERP future today.
+            Don't miss out! Lock in your current Microsoft pricing before the October 30th deadline. Secure your business's digital transformation at today's rates.
           </p>
           
           <Button 
